@@ -8,7 +8,8 @@ a {
   text-decoration: none;
 }
 
-/* Common Css */
+
+/*====================== Common Css =======================*/
 .container {
   width: 90%;
   margin: 0 auto;
@@ -34,7 +35,7 @@ a {
 }
 
 
-/* Header Area */
+/*======================= Header Area =======================*/
 
 header.header {
   background-image: url('../images/banner/banner3.png');
@@ -53,7 +54,6 @@ header.header {
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
-  /* height: 100%; */
 }
 
 .header .banner-area h1 {
@@ -67,7 +67,8 @@ header.header {
   margin-bottom: 34px;
 }
 
-/* My Failures */
+
+/*====================== My Failures ======================*/
 .myFailures-area {
   display: flex;
   justify-content: center;
@@ -128,9 +129,7 @@ header.header {
 
 
 
-/* My Plans Area */
-.myPlan-area {}
-
+/*====================== My Plans Area ======================*/
 .myPlan-area .section-title {
   text-align: center;
 }
@@ -148,10 +147,65 @@ header.header {
 }
 
 
+/*========================= My Resume =========================*/
+.MyResume {
+  text-align: center;
+}
 
-/* Call Now */
+.MyResume .section-title {
+  text-align: center;
+}
+
+.MyResume .section-items {
+  text-align: left;
+  gap: 70px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.section-items .resume-section {
+  width: 50%;
+}
+
+.resume-section .resume-title {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-size: 23px;
+}
+
+.resume-items .resume-item {
+  margin: 20px 0;
+}
+
+.resume-item h4.item-title {
+  font-size: 21px;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+
+.resume-item h6.resume-sub-title {
+  font-size: 16px;
+  font-weight: 500;
+  color: #484848;
+  margin-bottom: 16px;
+}
+
+article.resume-item p {
+  line-height: 23px;
+  color: #302e2e;
+}
+
+.MyResume .btn {
+  background: #1c62a1;
+  color: #fafafa;
+}
+
+
+/*========================= Call Now =========================*/
 section.container.callNow-area {
-  margin-bottom: 130px;
+  margin-bottom: 60px;
   margin-top: 65px;
 }
 
@@ -174,7 +228,7 @@ section.container.callNow-area {
 
 
 
-/* Footer Area */
+/*===================== Footer Area =====================*/
 
 footer {
   background: #151414;
@@ -214,8 +268,6 @@ footer {
 .footer-area .footer-social-icons img {
   width: 36px;
 }
-
-.footer-area .footer-form-side {}
 
 .footer-form-side form {
   display: flex;
